@@ -1,0 +1,76 @@
+body {
+  font-family: system-ui, sans-serif;
+  background: rgb(42, 41, 41);
+  margin: 0;
+  color: white;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 24px;
+}
+
+.grid {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+}
+
+.card {
+  background: white;
+  padding: 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: black;
+  margin: 2rem  ;
+}
+.card:hover {
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+}
+
+.hover {
+  transition: 0.2s ease;
+}
+
+.hover:hover {
+  transform: translateY(-2px);
+}
+
+.input {
+  margin: 8px 12px 24px 0;
+  padding: 8px 10px;
+}
+
+.badge {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  margin-top: 8px;
+}
+
+.draft {
+   background: #ddd;
+    margin: 22px;
+   }
+
+.submitted { 
+  background: #cce;
+  margin: 22px;
+ }
+
+.published {
+   background: #cde;
+   margin: 22px;
+   }
+
+.disclaimer {
+  margin-top: 24px;
+  font-size: 14px;
+  color: #555;
+}
+
+.empty {
+  color: #777;
+}
